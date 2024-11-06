@@ -1,6 +1,6 @@
 extends Node3D
 
-var initialAngle: float = 45
+var initialAngle: float = PI/4
 var length1: float = 1
 var length2: float = 1
 var angle1: float = initialAngle
