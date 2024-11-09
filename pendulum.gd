@@ -1,14 +1,14 @@
 extends Node3D
 
-var initialAngle: float = PI/4
-var length1: float = 1
-var length2: float = 1
-var angle1: float = initialAngle
-var angle2: float = 0
-var angularVelocity1: float = 0
-var angularVelocity2: float = 0
-var angularAcceleration1: float = 0
-var angularAcceleration2: float = 0
+#var initialAngle: float = PI/4
+#var length1: float = 1
+#var length2: float = 1
+#var angle1: float = initialAngle
+#var angle2: float = 0
+#var angularVelocity1: float = 0
+#var angularVelocity2: float = 0
+#var angularAcceleration1: float = 0
+#var angularAcceleration2: float = 0
 var gravity: float = 9.8
 
 @onready var pendulum2 = $pendulum1Rod/pendulum2Center
