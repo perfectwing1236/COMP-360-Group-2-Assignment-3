@@ -9,3 +9,6 @@ Ambarish Sharma (300192621)
  - Worked on logging of positions and velocities
  - Added work to debug log document
  - Updated README.md
+
+Kaleb Reid (300184418)
+ - Implemented double-pendulum and rotational logic
