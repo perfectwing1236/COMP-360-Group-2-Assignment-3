@@ -2,4 +2,10 @@
  
 Ananya Sanap (300192396)
 - Worked on applying angle assertions
-- Added work to debug logs
+- Added work to debug log documnet
+- Updated README.md
+
+Ambarish Sharma (300192621)
+ - Worked on logging of positions and velocities
+ - Added work to debug log document
+ - Updated README.md
