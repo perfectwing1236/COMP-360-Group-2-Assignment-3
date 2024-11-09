@@ -1,14 +1,5 @@
 extends Node3D
 
-#var initialAngle: float = PI/4
-#var length1: float = 1
-#var length2: float = 1
-#var angle1: float = initialAngle
-#var angle2: float = 0
-#var angularVelocity1: float = 0
-#var angularVelocity2: float = 0
-#var angularAcceleration1: float = 0
-#var angularAcceleration2: float = 0
 var gravity: float = 9.8
 
 @onready var pendulum2 = $pendulum1Rod/pendulum2Center
@@ -22,7 +13,6 @@ var velocity = Vector3(0, 0, 0)
 var velocity2 = Vector3(0, 0, 0)
 
 func _ready() -> void:
-	#rotation.z = initialAngle
 	rotation = init_angle_1
 	pendulum2.rotation = init_angle_2
 	
@@ -35,16 +25,6 @@ func _physics_process(_delta: float) -> void:
 	## Prints initial rotation and velocity values for the double pendulum
 	#print("Initial rotation 1: ", rotation, " | Initial rotation 2: ", pendulum2.rotation)
 	#print("Initial velocity 1: ", velocity, " | Intial velocity 2: ", velocity2)
-	
-	#angularAcceleration1 = ((-gravity*delta/60) / length1) * sin(angle1)
-	#angularVelocity1 += angularAcceleration1
-	#angle1 += angularVelocity1
-	#rotation.z=angle1
-	
-	#angularAcceleration2 = ((-gravity*delta/60) / length2) * sin(angle2)
-	#angularVelocity2 += angularAcceleration2
-	#angle2 += angularVelocity2
-	#pendulum2.rotation.z=angle2
 
 	velocity.x -= sign(global_position.z - ($pendulum1Ball.global_position.z + $pendulum1Rod/pendulum2Center/pendulum2Ball.global_position.z)/2) / (10000.0 / gravity)
 	velocity.z += sign(global_position.x - ($pendulum1Ball.global_position.x + $pendulum1Rod/pendulum2Center/pendulum2Ball.global_position.x)/2) / (10000.0 / gravity)
