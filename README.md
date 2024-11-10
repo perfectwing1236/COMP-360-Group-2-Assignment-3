@@ -12,3 +12,8 @@ Ambarish Sharma (300192621)
 
 Kaleb Reid (300184418)
  - Implemented double-pendulum and rotational logic
+
+Grant Gilbert (300153121)
+ - Implementation of physics-based pendulum logic
+ - Creation of Debug Log document
+ - Debugging pendulum code
