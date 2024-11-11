@@ -17,3 +17,6 @@ Grant Gilbert (300153121)
  - Implementation of physics-based pendulum logic
  - Creation of Debug Log document
  - Debugging pendulum code
+   
+Navraj Sohal (300196729)
+ - Added assert statements to check NaN values for rotation
