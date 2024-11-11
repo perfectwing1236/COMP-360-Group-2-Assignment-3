@@ -20,3 +20,6 @@ Grant Gilbert (300153121)
    
 Navraj Sohal (300196729)
  - Added assert statements to check NaN values for rotation
+
+Safia Singla (300200357)
+ - Assert Theory
