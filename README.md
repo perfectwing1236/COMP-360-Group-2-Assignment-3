@@ -23,3 +23,8 @@ Navraj Sohal (300196729)
 
 Safia Singla (300200357)
  - Assert Theory
+
+# Links:
+
+https://github.com/perfectwing1236/COMP-360-Group-2-Assignment-3
+https://github.com/users/perfectwing1236/projects/3/views/1
