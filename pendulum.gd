@@ -41,5 +41,9 @@ func _physics_process(_delta: float) -> void:
 	#assert(rotation.z >= -PI and rotation.z <= PI, "Angle 1 is beyond the specified range!")
 	#assert(pendulum2.rotation.z >= -PI and pendulum2.rotation.z <= PI, "Angle 2 is beyond the specified range!")
 	
+	# Check if rotation contains any NaN values
+	#assert(velocity.length() < 10, "Velocity 1 is too high!")
+	#print("Updated rotation for 1: ", rotation, " | velocity 1: ", velocity)
+	
 	## Log updated values for pendulum2 rotation and velocity2 after applying changes
 	#print("Updated rotation for 2: ", pendulum2.rotation, " | velocity 2: ", velocity2)
